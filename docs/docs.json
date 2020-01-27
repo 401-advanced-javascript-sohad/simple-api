@@ -1,0 +1,139 @@
+{
+    "openapi" : "3.0.1",
+    "info" : {
+      "title" : "defaultTitle",
+      "description" : "defaultDescription",
+      "version" : "0.1"
+    },
+    "servers" : [ {
+      "url" : "http://localhost:3000"
+    } ],
+    "paths" : {
+      "/products/1" : {
+        "put" : {
+          "description" : "Auto generated using Swagger Inspector",
+          "requestBody" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "name" : {
+                      "type" : "string"
+                    },
+                    "description" : {
+                      "type" : "string"
+                    },
+                    "category" : {
+                      "type" : "string"
+                    },
+                    "display_name" : {
+                      "type" : "string"
+                    }
+                  }
+                },
+                "examples" : {
+                  "0" : {
+                    "value" : "{ \"category\":\"clothes\",\n\"name\":\"hat\",\n\"display_name\":\"head hate\",\n\"description\":\"type of clothes\"\n}"
+                  },
+                  "1" : {
+                    "value" : "{ \"category\":\"clothes\",\n\"name\":\"hat\",\n\"display_name\":\"head hate\",\n\"description\":\"type of clothes\"\n}"
+                  }
+                }
+              }
+            }
+          },
+          "responses" : {
+            "200" : {
+              "description" : "Auto generated using Swagger Inspector",
+              "content" : {
+                "application/json; charset=utf-8" : {
+                  "schema" : {
+                    "type" : "string"
+                  },
+                  "examples" : { }
+                }
+              }
+            }
+          },
+          "servers" : [ {
+            "url" : "http://localhost:3000"
+          } ]
+        },
+        "delete" : {
+          "description" : "Auto generated using Swagger Inspector",
+          "responses" : {
+            "404" : {
+              "description" : "Auto generated using Swagger Inspector",
+              "content" : {
+                "application/json; charset=utf-8" : {
+                  "schema" : {
+                    "type" : "string"
+                  },
+                  "examples" : { }
+                }
+              }
+            }
+          },
+          "servers" : [ {
+            "url" : "http://localhost:3000"
+          } ]
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "/products" : {
+        "post" : {
+          "description" : "Auto generated using Swagger Inspector",
+          "requestBody" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "name" : {
+                      "type" : "string"
+                    },
+                    "description" : {
+                      "type" : "string"
+                    },
+                    "category" : {
+                      "type" : "string"
+                    },
+                    "display_name" : {
+                      "type" : "string"
+                    }
+                  }
+                },
+                "examples" : {
+                  "0" : {
+                    "value" : "{ \"category\":\"clothes\",\n\"name\":\"jaket\",\n\"display_name\":\"jaakket\",\n\"description\":\"type of clothes\"\n}"
+                  }
+                }
+              }
+            }
+          },
+          "responses" : {
+            "201" : {
+              "description" : "Auto generated using Swagger Inspector",
+              "content" : {
+                "application/json; charset=utf-8" : {
+                  "schema" : {
+                    "type" : "string"
+                  },
+                  "examples" : { }
+                }
+              }
+            }
+          },
+          "servers" : [ {
+            "url" : "http://localhost:3000"
+          } ]
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      }
+    }
+  }

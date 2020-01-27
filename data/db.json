@@ -1,4 +1,25 @@
 {
-  "categories": [],
-  "products": []
+  "categories": [
+    {
+      "category": "clothes",
+      "name": "hat",
+      "display_name": "head hate",
+      "description": "type of clothes"
+    }
+  ],
+  "products": [
+    {
+      "category": "clothes",
+      "name": "hat",
+      "display_name": "head hate",
+      "description": "type of clothes"
+    },
+    {
+      "category": "clothes",
+      "name": "jaket",
+      "display_name": "jaakket",
+      "description": "type of clothes",
+      "_id": 2
+    }
+  ]
 }
